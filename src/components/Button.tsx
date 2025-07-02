@@ -2,17 +2,19 @@ import React from "react";
 
 export const Button = ({
    title,
-   className,
    icon,
    variant = "default",
+   onClick,
 }: {
    title: string;
    className?: string;
    icon?: React.ReactNode;
    variant?: "default" | "outline" | "ghost";
+   onClick?: () => void;
 }) => {
    return (
       <button
+         onClick={onClick}
          className={`${
             variant === "outline"
                ? "bg-transparent border border-neutral-400 hover:bg-neutral-200 text-neutral-800"

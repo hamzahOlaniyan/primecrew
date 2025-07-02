@@ -1,8 +1,11 @@
+"use client";
 import React from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { Button } from "./Button";
+import { useRouter } from "next/navigation";
 
 export const Hero = () => {
+   const router = useRouter();
    return (
       <div className="h-[70vh] bg-yellow-400 px-24 w-full flex gap-24 items-center justify-between overflow-hidden">
          <div className="flex-col flex gap-16 w-full">
@@ -14,7 +17,7 @@ export const Hero = () => {
                </p>
             </div>
             <div className="bg-white shadow-md rounded-lg gap-3 p-5 flex">
-               <Button title=" Get instant prices" />
+               <Button title=" Get instant prices" onClick={() => router.push("/quote")} />
                <Button title=" 020 8123 4567" icon={<BsWhatsapp className="text-xl" />} variant="outline" />
             </div>
          </div>

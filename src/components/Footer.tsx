@@ -27,7 +27,7 @@ export const Footer = () => {
             </div>
             <ul className="">
                {footerLinks.map((link) => (
-                  <li>
+                  <li key={link}>
                      <Link href={"/"} className="capitalize font-semibold text-sm hover:underline">
                         {link}
                      </Link>
