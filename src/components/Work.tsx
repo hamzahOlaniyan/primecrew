@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 export const Work = () => {
    return (
-      <div className="p-24 flex flex-col justify-center items-center gap-6">
+      <div className="p-8 lg:p-24 flex flex-col justify-center items-center gap-6">
          <h1 className="text-center uppercase  text-[#015fab] font-medium">London Removals and Storage Services</h1>
          <h1 className="text-4xl font-bold text-center">
             How <span className="font-black">Primecrew </span> Service Works
@@ -13,7 +13,7 @@ export const Work = () => {
             service includes:
          </p>
 
-         <div className="w-[80%] grid grid-cols-3 flex-col gap-4">
+         <div className="w-[80%] grid lg:grid-cols-3 gap-4">
             <div className="flex flex-col gap-2">
                <h1 className="text-2xl font-medium">💰 Price match guarantee</h1>
                <p>

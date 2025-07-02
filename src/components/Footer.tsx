@@ -6,7 +6,7 @@ const footerLinks = ["about us", "contact us", "get quote"];
 
 export const Footer = () => {
    return (
-      <div className="px-24 pt-12 pb-2 bg-[#444444] text-white ">
+      <div className="px-4 g:px-24 pt-12 pb-2 bg-[#444444] text-white">
          <div className="flex justify-between items-start">
             <div className="flex-col flex gap-4">
                <div className="flex-col flex gap-4">
@@ -36,8 +36,8 @@ export const Footer = () => {
             </ul>
          </div>
          <div className="w-full bg-[#909090]/50 h-[1px] my-5"></div>
-         <div className=" flex justify-between items-center font-semibold text-sm">
-            <div className="">
+         <div className="lg:flex justify-between items-center font-semibold text-sm">
+            <div className="w-full">
                <Link href={""} className="hover:underline">
                   Privacy policy |
                </Link>{" "}

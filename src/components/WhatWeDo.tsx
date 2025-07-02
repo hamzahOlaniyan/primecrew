@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 export const WhatWeDo = () => {
    const router = useRouter();
    return (
-      <div className="w-full grid grid-cols-2 gap-12 p-24 bg-[#015fab]">
+      <div className="w-full  grid grid-cols-1 lg:grid-cols-2 gap-12 p-4 py-12 lg:p-24 lg-py-0 bg-[#015fab]">
          <div className=" text-white flex flex-col gap-3">
             <h1 className="text-4xl font-bold ">We move more for less</h1>
             <div className="w-full h-[1px] bg-[#056abd]"></div>

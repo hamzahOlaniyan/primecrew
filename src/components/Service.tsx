@@ -9,20 +9,21 @@ export const Service = () => {
       { title: "logistic", img: "/logistic.jpg", url: "/logistics" },
    ];
    return (
-      <div className="px-48 py-24 bg-[#ededed]">
+      <div className="px-8 lg:px-48 py-12 lg:py-24 bg-[#ededed]">
          <h1 className="text-4xl font-bold text-center capitalize">More services</h1>
          <div className="grid grid-cols-2 gap-6 justify-between my-12">
             {servicesArray.map((ser) => (
                <Link
+                  key={ser.title}
                   href={ser.url}
                   className="rounded-md h-48 relative overflow-hidden bg-white shadow-md cursor-pointer group"
                >
                   <img
                      src={ser?.img}
                      alt=""
-                     className="object-cover object-center h-full w-full opacity-55 hover:opacity-80 duration-300"
+                     className="lg:object-cover  object-center h-full w-full opacity-55 hover:opacity-80 duration-300"
                   />
-                  <h1 className="text-[28px] text-nowrap text-center font-black uppercase absolute bottom-1 left-1/2 -translate-1/2">
+                  <h1 className="text-[20px] lg:text-[28px] lg:text-nowrap text-center font-black uppercase absolute bottom-1 left-1/2 -translate-1/2">
                      {ser?.title}
                   </h1>
                </Link>
