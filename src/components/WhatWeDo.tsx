@@ -32,9 +32,6 @@ export const WhatWeDo = () => {
             <p>An unbeatable price - Up to 40% cheaper than others with a price match guarantee, and no hidden fees</p>
             <p>48 hour cancellation - Plans changed? No worries, edit or cancel your booking up to 2 days beforehand</p>
             <p>Peace of mind - We include £50k fire and theft cover as standard (see our T&Cs for more info)</p>
-            <Link href={"/"}>
-               <p className="font-bold text-xl"> Discover Our Services</p>
-            </Link>
          </div>
       </div>
    );
