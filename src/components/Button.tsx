@@ -5,6 +5,7 @@ export const Button = ({
    icon,
    variant = "default",
    onClick,
+   className,
 }: {
    title: string;
    className?: string;
@@ -21,7 +22,7 @@ export const Button = ({
                : variant === "ghost"
                ? "bg-transparent hover:bg-neutral-200 text-neutral-800"
                : "bg-rose-500 hover:bg-rose-400 text-white border-0"
-         } h-14 w-full text-xl flex items-center justify-center gap-2 font-semibold py-2 px-8 rounded-lg duration-300 cursor-pointer`}
+         } ${className} h-14 w-full text-xl flex items-center justify-center gap-2 font-semibold py-2 px-8 rounded-lg duration-300 cursor-pointer`}
       >
          {icon && icon}
          {title}

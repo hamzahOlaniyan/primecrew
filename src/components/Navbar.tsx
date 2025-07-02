@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa";
@@ -7,7 +8,7 @@ export const Navbar = () => {
       <nav className="h-16 px-24 bg-yellow-400 flex justify-between items-center">
          <h1 className="text-2xl font-black text-neutral-800 flex items-center gap-2">
             <FaLocationArrow className="text-white text-md" />
-            Primecrew
+            <Link href={"/"}> Primecrew</Link>
          </h1>
          <div className="flex items-center gap-2">
             <BsWhatsapp className="text-xl text-neutral-800" />
