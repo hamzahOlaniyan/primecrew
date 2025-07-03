@@ -1,18 +1,8 @@
 import React from "react";
 
-export const Logo = ({
-   width,
-   arrow,
-   box,
-   className,
-}: {
-   width: number;
-   arrow: string;
-   box: string;
-   className?: string;
-}) => {
+export const Logo = ({ arrow, box, className }: { arrow: string; box: string; className?: string }) => {
    return (
-      <svg id="Layer_1" style={{ width }} version="1.1" viewBox="0 0 403 500" className={`${className}`}>
+      <svg id="Layer_1" version="1.1" viewBox="0 0 403 500" className={`${className}`}>
          <defs></defs>
          <polygon
             fill="transparent"

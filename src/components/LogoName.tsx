@@ -1,8 +1,8 @@
 import React from "react";
 
-export const LogoName = ({ width, color, className }: { width: number; color?: string; className?: string }) => {
+export const LogoName = ({ color, className }: { color?: string; className?: string }) => {
    return (
-      <svg id="Layer_1" style={{ width }} version="1.1" viewBox="0 0 500 61.6" className={`${className}`}>
+      <svg id="Layer_1" version="1.1" viewBox="0 0 500 61.6" className={`${className}`}>
          <path
             fill={color}
             d="M48.2,31.7c-1.8,3.2-4.5,5.7-8,7.5-3.5,1.9-7.8,2.8-12.7,2.8h-6.1c-.9,0-1.6.7-1.6,1.6v16.4c0,.9-.7,1.6-1.6,1.6H2.1c-.9,0-1.6-.7-1.6-1.6V1.6c0-.9.7-1.6,1.6-1.6h25.4c7.5,0,13.3,1.9,17.4,5.7,4,3.8,6,9,6,15.4s-.9,7.4-2.7,10.6ZM31.3,21.1c0-3.8-2-5.7-6-5.7h-3.9c-.9,0-1.6.7-1.6,1.6v8.2c0,.9.7,1.6,1.6,1.6h3.9c4,0,6-1.9,6-5.7Z"
