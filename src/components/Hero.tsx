@@ -3,6 +3,7 @@ import React from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { Button } from "./Button";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export const Hero = () => {
    const router = useRouter();
@@ -22,7 +23,7 @@ export const Hero = () => {
             </div>
          </div>
          <div className="w-1/2 lg:w-full">
-            <img src="/landing.png" alt="landing-img" className="object-contain object-center h-full w-full" />
+            <Image src="/landing.png" alt="landing-img" className="object-contain object-center h-full w-full" />
          </div>
       </div>
    );

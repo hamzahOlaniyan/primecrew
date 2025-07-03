@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 export const Service = () => {
    const servicesArray = [
@@ -18,7 +19,7 @@ export const Service = () => {
                   href={ser.url}
                   className="rounded-md h-48 relative overflow-hidden bg-white shadow-md cursor-pointer group"
                >
-                  <img
+                  <Image
                      src={ser?.img}
                      alt=""
                      className="lg:object-cover  object-center h-full w-full opacity-55 hover:opacity-80 duration-300"
