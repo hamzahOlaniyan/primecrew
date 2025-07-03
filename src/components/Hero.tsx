@@ -12,9 +12,9 @@ export const Hero = () => {
          <div className="flex-col flex gap-8 lg:gap-16 w-full text-center lg:text-left">
             <div className="flex-col flex gap-4 w-full">
                <h1 className="text-5xl lg:text-6xl font-black text-neutral-800">Moving & Logistics</h1>
-               <h1 className="text-4xl lg:text-[40px] font-bold text-neutral-800">Let's get your move on</h1>
+               <h1 className="text-4xl lg:text-[40px] font-bold text-neutral-800">Let&apos;s get your move on</h1>
                <p className="text-xl lg:text-2xl text-neutral-800 font-medium">
-                  Find a price that’s right up your street, from the nation’s favourite way to move
+                  Find a price that&pos;s right up your street, from the nation&apos;s favourite way to move
                </p>
             </div>
             <div className="w-full bg-white shadow-md rounded-lg gap-3 p-5 flex flex-col md:flex-row">

@@ -22,10 +22,10 @@ export const WhatWeDo = () => {
             <Button title=" Get instant prices" onClick={() => router.push("/quote")} className="!w-fit mt-6" />
          </div>
          <div className=" text-white flex flex-col gap-3">
-            <h1 className="text-4xl font-bold ">Every move is great, when it&apos:s got a great home mover</h1>
+            <h1 className="text-4xl font-bold ">Every move is great, when it&apos;s got a great home mover</h1>
             <div className="w-full h-[1px] bg-[#056abd]"></div>
             <p>
-               We know that every move is unique, and so that&apos:s why every removal comes with a dedicated local
+               We know that every move is unique, and so that&apos;s why every removal comes with a dedicated local
                expert, and:
             </p>
             <p>An unbeatable price - Up to 40% cheaper than others with a price match guarantee, and no hidden fees</p>

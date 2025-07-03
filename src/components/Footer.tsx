@@ -11,7 +11,7 @@ export const Footer = () => {
             <div className="flex-col flex gap-4">
                <div className="flex-col flex gap-4">
                   <h1 className="text-2xl">020 3819 0162 </h1>
-                  <p className="text-lg">We’re here 7 days a week</p>
+                  <p className="text-lg">We&apos;re here 7 days a week</p>
                </div>
                <div className="flex gap-3 items-center">
                   <div className="bg-[#909090] w-10 h-10 rounded-full hover:bg-stone-200 justify-center items-center flex">

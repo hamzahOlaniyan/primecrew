@@ -17,7 +17,7 @@ export const Work = () => {
             <div className="flex flex-col gap-2">
                <h1 className="text-2xl font-medium">💰 Price match guarantee</h1>
                <p>
-                  Customers can save up to 40% with AnyVan, but if you find a better price let us know and we&apos:ll
+                  Customers can save up to 40% with Primecrew, but if you find a better price let us know and we&apos;ll
                   beat it!
                </p>
             </div>
