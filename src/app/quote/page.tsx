@@ -7,11 +7,11 @@ export default function Quote() {
    const contact = ["phone", "email", "whatsapp"];
 
    return (
-      <div className="px-24 my-12">
+      <div className="px-4 lg:px-24 my-12">
          <div className="flex flex-col gap-8">
             <h1 className="text-2xl font-bold text-neutral-800">Request a Quote</h1>
-            <div className="w-full flex gap-4">
-               <div className="bg-white border border-neutral-300 rounded-lg p-8 w-3/4 ">
+            <div className="w-full flex-col flex lg:flex-row gap-4">
+               <div className="bg-white border border-neutral-300 rounded-lg p-4 lg:p-8 w-full lg:w-3/4 ">
                   <form action="" className="w-full flex flex-col gap-4">
                      <div className="flex flex-col gap-2">
                         {/* PERSONAL INFO */}
@@ -46,7 +46,7 @@ export default function Quote() {
                      {/* ADDRESS */}
                      <div className="w-full flex gap-3">
                         <div className="w-full flex flex-col gap-2">
-                           <h1 className="text-sm font-medium">Pick-Up Address/Postcode (Required)</h1>
+                           <h1 className="text-tiny sm:text-sm font-medium">Pick-Up Address/Postcode (Required)</h1>
                            <input
                               type="text"
                               placeholder="Address line 1"
@@ -71,7 +71,7 @@ export default function Quote() {
                            </div>
                         </div>
                         <div className="w-full flex flex-col gap-2">
-                           <h1 className="text-sm font-medium">Delivery Address/Postcode (Required)</h1>
+                           <h1 className="text-tiny sm:text-sm font-medium">Delivery Address/Postcode (Required)</h1>
                            <input
                               type="text"
                               placeholder="Address line 1"
