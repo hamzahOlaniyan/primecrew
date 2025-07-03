@@ -8,7 +8,7 @@ import Image from "next/image";
 export const Hero = () => {
    const router = useRouter();
    return (
-      <div className="lg:h-[70vh] w-full px-4 pb-4 lg:pb-0  lg:px-24 bg-yellow-400 flex flex-col-reverse lg:flex-row lg:gap-24 items-center justify-between overflow-hidden">
+      <div className="lg:h-[70vh] w-full px-4 pb-4 lg:pb-0 lg:px-24 bg-yellow-400 flex flex-col-reverse lg:flex-row lg:gap-24 items-center justify-between overflow-hidden">
          <div className="flex-col flex gap-8 lg:gap-16 w-full text-center lg:text-left">
             <div className="flex-col flex gap-4 w-full">
                <h1 className="text-5xl lg:text-6xl font-black text-neutral-800">Moving & Logistics</h1>

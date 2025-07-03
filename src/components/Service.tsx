@@ -22,7 +22,7 @@ export const Service = () => {
                   <Image
                      src={ser?.img}
                      alt=""
-                     className="lg:object-cover  object-center h-full w-full opacity-55 hover:opacity-80 duration-300"
+                     className="lg:object-cover object-center h-full w-full opacity-55 hover:opacity-80 duration-300"
                   />
                   <h1 className="text-[20px] lg:text-[28px] lg:text-nowrap text-center font-black uppercase absolute bottom-1 left-1/2 -translate-1/2">
                      {ser?.title}
