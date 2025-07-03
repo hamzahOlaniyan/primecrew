@@ -8,13 +8,13 @@ import Image from "next/image";
 export const Hero = () => {
    const router = useRouter();
    return (
-      <div className="lg:h-[70vh] w-full px-4 pb-4 lg:pb-0 lg:px-24 bg-yellow-400 flex flex-col-reverse lg:flex-row lg:gap-24 items-center justify-between overflow-hidden">
+      <div className="lg:h-[75vh] w-full px-4 pb-4 lg:pb-0 lg:px-24 bg-yellow-400 flex flex-col-reverse lg:flex-row lg:gap-24 items-center justify-between overflow-hidden">
          <div className="flex-col flex gap-8 lg:gap-16 w-full text-center lg:text-left">
             <div className="flex-col flex gap-4 w-full">
-               <h1 className="text-5xl lg:text-6xl font-black text-neutral-800">Moving & Logistics</h1>
-               <h1 className="text-4xl lg:text-[40px] font-bold text-neutral-800">Let&apos;s get your move on</h1>
-               <p className="text-xl lg:text-2xl text-neutral-800 font-medium">
-                  Find a price that&pos;s right up your street, from the nation&apos;s favourite way to move
+               <h1 className="text-4xl lg:text-6xl font-black text-neutral-800">Moving & Logistics</h1>
+               <h1 className="text-2xl lg:text-[40px] font-bold text-neutral-800">Let&apos;s get your move on</h1>
+               <p className="text-md lg:text-2xl text-neutral-800 font-medium">
+                  Find a price that&apos;s right up your street, from the nation&apos;s favourite way to move
                </p>
             </div>
             <div className="w-full bg-white shadow-md rounded-lg gap-3 p-5 flex flex-col md:flex-row">
@@ -23,7 +23,14 @@ export const Hero = () => {
             </div>
          </div>
          <div className="w-1/2 lg:w-full">
-            <Image src="/landing.png" alt="landing-img" className="object-contain object-center h-full w-full" />
+            <Image
+               src="/landing.png"
+               alt="landing-img"
+               width={500}
+               height={500}
+               priority
+               className="object-contain object-center h-full w-full"
+            />
          </div>
       </div>
    );

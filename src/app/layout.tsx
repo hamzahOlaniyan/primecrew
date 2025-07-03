@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Lato } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 
-const geistSans = Geist({
-   variable: "--font-geist-sans",
-   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-   variable: "--font-geist-mono",
+const lato = Lato({
+   variable: "--font-Lato",
+   weight: ["100", "300", "400", "700", "900"],
    subsets: ["latin"],
 });
 
@@ -26,9 +22,7 @@ export default function RootLayout({
 }>) {
    return (
       <html lang="en" className="bg-[#f7f7f7]">
-         <body
-            className={`${geistSans.variable} ${geistMono.variable} text-[#262626] text-md lg:text-lg xl:text-xl antialiased`}
-         >
+         <body className={`${lato.className} text-[#262626] text-sm sm:text-md md:text-lg xl:text-xl antialiased`}>
             <Navbar />
             {children}
             <Footer />

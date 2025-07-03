@@ -18,11 +18,11 @@ export const Button = ({
          onClick={onClick}
          className={`${
             variant === "outline"
-               ? "bg-transparent border border-neutral-400 hover:bg-neutral-200 text-neutral-800"
+               ? "bg-transparent border border-neutral-400 hover:bg-neutral-100 text-neutral-800"
                : variant === "ghost"
                ? "bg-transparent hover:bg-neutral-200 text-neutral-800"
-               : "bg-rose-500 hover:bg-rose-400 text-white border-0"
-         } ${className} h-14 w-full text-xl flex items-center justify-center gap-2 font-semibold py-2 px-8 rounded-lg duration-300 cursor-pointer`}
+               : "bg-rose-500 hover:bg-rose-600 text-white border-0"
+         } ${className} h-14 w-full text-sm lg:text-lg flex items-center justify-center gap-2 font-semibold py-2 px-8 rounded-lg duration-300 cursor-pointer`}
       >
          {icon && icon}
          {title}

@@ -8,7 +8,7 @@ export const WhatWeDo = () => {
    return (
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-12 p-4 py-12 lg:p-24 lg-py-0 bg-[#015fab]">
          <div className="text-white flex flex-col gap-3">
-            <h1 className="text-4xl font-bold ">We move more for less</h1>
+            <h1 className="text-3xl lg:text-4xl font-bold ">We move more for less</h1>
             <div className="w-full h-[1px] bg-[#056abd]"></div>
             <p>
                That’s less cost, less stress, and less fuss, which means you can enjoy more time focusing on your
@@ -22,7 +22,9 @@ export const WhatWeDo = () => {
             <Button title="Get instant prices" onClick={() => router.push("/quote")} className="!w-fit mt-6" />
          </div>
          <div className="text-white flex flex-col gap-3">
-            <h1 className="text-4xl font-bold">Every move is great, when it&apos;s got a great home mover</h1>
+            <h1 className="text-3xl lg:text-4xl font-bold">
+               Every move is great, when it&apos;s got a great home mover
+            </h1>
             <div className="w-full h-[1px] bg-[#056abd]"></div>
             <p>
                We know that every move is unique, and so that&apos;s why every removal comes with a dedicated local

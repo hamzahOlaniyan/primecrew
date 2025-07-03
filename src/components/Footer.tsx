@@ -7,7 +7,7 @@ const footerLinks = ["about us", "contact us", "get quote"];
 export const Footer = () => {
    return (
       <div className="px-4 lg:px-24 pt-12 pb-2 bg-[#444444] text-white">
-         <div className="flex justify-between items-start">
+         <div className="flex flex-col gap-6 lg:gap-0 lg:flex-row justify-between items-start">
             <div className="flex-col flex gap-4">
                <div className="flex-col flex gap-4">
                   <h1 className="text-2xl">020 3819 0162 </h1>
@@ -53,7 +53,7 @@ export const Footer = () => {
             </div>
             <p>Copyright © 2025 Primecrew Ltd. All rights reserved.</p>
          </div>
-         <p className="text-sm text-center my-6">
+         <p className="text-tiny lg:text-sm text-center my-6">
             Primecrew Ltd is an Appointed Representative of Eggar Forrester Insurance who are Authorised and Regulated
             by the Financial Conduct Authority. FCA Number 300008 Primecrew Limited is a company registered in England
             and Wales. | Registered address: 5th Floor, The street, Haringay, London, N22 6AJ | Company number: 0000000
