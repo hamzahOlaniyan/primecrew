@@ -6,7 +6,7 @@ const footerLinks = ["about us", "contact us", "get quote"];
 
 export const Footer = () => {
    return (
-      <div className="px-4 g:px-24 pt-12 pb-2 bg-[#444444] text-white">
+      <div className="px-4 lg:px-24 pt-12 pb-2 bg-[#444444] text-white">
          <div className="flex justify-between items-start">
             <div className="flex-col flex gap-4">
                <div className="flex-col flex gap-4">
