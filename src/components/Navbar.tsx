@@ -10,10 +10,21 @@ export const Navbar = () => {
             <FaLocationArrow className="text-white text-md" />
             <Link href={"/"}> Primecrew</Link>
          </h1>
-         <div className="hidden md:flex items-center gap-2">
+         <a
+            href="https://wa.me/23409077046583?text=Hello%20I%20need%20a%20quote"
+            target="blank"
+            className="md:hidden border border-black rounded-md p-1 px-3 font-bold"
+         >
+            Call us
+         </a>
+         <a
+            href="https://wa.me/23409077046583?text=Hello%20I%20need%20a%20quote"
+            target="blank"
+            className="hidden md:flex items-center gap-2"
+         >
             <BsWhatsapp className="text-xl text-neutral-800" />
             <h1 className="text-2xl font-bold text-neutral-800">020 8123 4567</h1>
-         </div>
+         </a>
       </nav>
    );
 };
