@@ -3,6 +3,7 @@ import React from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { Logo } from "./Logo";
 import { LogoName } from "./LogoName";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 export const Navbar = () => {
    return (
@@ -23,7 +24,7 @@ export const Navbar = () => {
             target="blank"
             className="hidden md:flex items-center gap-2"
          >
-            <BsWhatsapp className="text-xl text-neutral-800" />
+            <IoLogoWhatsapp className="text-2xl text-neutral-800" />
             <h1 className="text-2xl font-black text-neutral-800">020 8123 4567</h1>
          </a>
       </nav>

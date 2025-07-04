@@ -10,7 +10,7 @@ export const Footer = () => {
          <div className="flex flex-col gap-6 lg:gap-0 lg:flex-row justify-between items-start">
             <div className="flex-col flex gap-4">
                <div className="flex-col flex gap-4">
-                  <h1 className="text-2xl">020 3819 0162 </h1>
+                  <h1 className="text-2xl">020 8123 4567 </h1>
                   <p className="text-lg">We&apos;re here 7 days a week</p>
                </div>
                <div className="flex gap-3 items-center">
