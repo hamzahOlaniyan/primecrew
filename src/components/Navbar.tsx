@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { BsWhatsapp } from "react-icons/bs";
 import { Logo } from "./Logo";
 import { LogoName } from "./LogoName";
 import { IoLogoWhatsapp } from "react-icons/io";
