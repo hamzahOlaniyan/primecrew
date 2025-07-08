@@ -4,10 +4,10 @@ import Image from "next/image";
 
 export const Service = () => {
    const servicesArray = [
-      { title: "home removal", img: "/homeremoval.jpg", url: "/home-removal" },
-      { title: "furniture & appliance", img: "/furniture.png", url: "/furniture-and-appliance" },
-      { title: "office removal", img: "/office.jpg", url: "/office-removal" },
-      { title: "logistic", img: "/logistic.jpg", url: "/logistics" },
+      { title: "home removal", img: "./homeremoval.jpg", url: "/home-removal" },
+      { title: "furniture & appliance", img: "./furniture.png", url: "/furniture-and-appliance" },
+      { title: "office removal", img: "./office.jpg", url: "/office-removal" },
+      { title: "logistic", img: "./logistic.jpg", url: "/logistics" },
    ];
    return (
       <div className="px-6 lg:px-48 py-12 lg:py-24 bg-[#ededed]">
