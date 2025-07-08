@@ -24,7 +24,7 @@ export const Hero = () => {
          </div>
          <div className="w-1/2 lg:w-full">
             <Image
-               src="/landing.png"
+               src="./landing.png"
                alt="landing-img"
                width={500}
                height={500}
